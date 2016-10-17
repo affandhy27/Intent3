@@ -109,6 +109,5 @@ public class MainActivity extends AppCompatActivity {
         intent.setData(Uri.parse("tel:" + phonenumber));
         if (intent.resolveActivity(getPackageManager()) != null) ;
         startActivity(intent);
-
     }
 }
