@@ -101,8 +101,6 @@ public class MainActivity extends AppCompatActivity {
         intent.putExtra("sms_body", message);
         if (intent.resolveActivity(getPackageManager()) != null) ;
         startActivity(intent);
-
-
     }
 
     private void dialPhoneNumber(String phonenumber) {
