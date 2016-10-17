@@ -81,8 +81,6 @@ public class MainActivity extends AppCompatActivity {
 
 
         }
-
-
     }
 
     private void openweb(String url) {
